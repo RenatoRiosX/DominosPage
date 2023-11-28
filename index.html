@@ -13,84 +13,92 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <header class="row justify-content-center">
-            <figure class="col-5">
-                <img src="/img/logo.jpg" class="img-fluid" alt="Logo de Domino's Pizza">
+    <!-- HEADER -->
+    <div class="container-fluid mb-2">
+        <header class="row justify-content-center text-center">
+            <figure class="col-8">
+                <img src="img/logo.jpg" class="img-fluid w-50" alt="Logo de Domino's Pizza">
             </figure>
-            <nav class="col-8">
-                <ul class="list-inline text-center p-1">
-                    <li class="list-unstyled list-inline-item"><a href="#" class="text-decoration-none">Pizzas</a></li>
-                    <li class="list-unstyled list-inline-item"><a href="#" class="text-decoration-none">Tiendas</a></li>
-                    <li class="list-unstyled list-inline-item"><a href="#" class="text-decoration-none">Pedidos</a></li>
+            <nav class="col-6">
+                <ul class="list-inline list-unstyled m-0">
+                    <li class=" list-inline-item p-1 p-lg-3"><a href="#destacados" class="text-decoration-none">Pizzas</a></li>
+                    <li class=" list-inline-item p-1 p-lg-3"><a href="#tiendas" class="text-decoration-none">Tiendas</a></li>
+                    <li class=" list-inline-item p-1 p-lg-3"><a href="#pedido" class="text-decoration-none">Pedidos</a></li>
                 </ul>
             </nav>
         </header>
     </div>
    
     <main class="container-fluid">
-        <div class="row">
-            <p id="textoPrincipal" class="col-12 text-center">I <span>LOVE</span> PIZZA</p>
-        </div>
+
+        <section class="row justify-content-center py-3">
+            <h1 id="textoPrincipal" class="col-12 text-center m-0">I <span>LOVE</span> PIZZA</h1>
+        </section>
+
+        <!-- DESTACADOS DEL MES -->
         <section id="destacados" class="row justify-content-center">
             <h2 class="text-center">Destacados <span>del mes</span></h2>
-            <article class="col-3">
+            <article class="col-12 col-sm-6 col-md-3">
                 <figure>
-                    <img src="/img/pizza-americana.jpeg" alt="Imagen de una pizza" class="img-fluid">
+                    <img src="img/pizza-americana.jpeg" alt="Imagen de una pizza" class="img-fluid w-100">
                 </figure>
-                <a href="#" class="p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
+                <a href="#" class="w-100 p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
                 <h3 class="mt-3">Pizza Americana</h3>
                 <p>Base de Salsa & Cheese, Panceta, Pepperoni, Cebolla, Cheddar y Salsa BBQ.</p>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-sm-6 col-md-3">
                 <figure>
-                    <img src="/img/pizza-hawaiana.jpeg" alt="Imagen de una pizza" class="img-fluid">
+                    <img src="img/pizza-hawaiana.jpeg" alt="Imagen de una pizza" class="img-fluid w-100">
                 </figure>
-                <a href="#" class="p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
+                <a href="#" class="w-100 p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
                 <h3 class="mt-3">Pizza Hawaiana</h3>
                 <p>Base de Salsa & Cheese, Ananá, Pollo, Panceta y Salsa BBQ.</p>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-md-3 d-block d-sm-none d-md-block">
                 <figure>
-                    <img src="/img/pizza-pecado.jpeg" alt="Imagen de una pizza" class="img-fluid">
+                    <img src="img/pizza-pecado.jpeg" alt="Imagen de una pizza" class="img-fluid w-100">
                 </figure>
-                <a href="#" class="p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
+                <a href="#" class="w-100 p-1 text-center text-decoration-none d-block">PEDÍ AHORA</a>
                 <h3 class="mt-3">Pizza Pecado Carnal</h3>
                 <p>Base de Salsa & Cheese, Pepperoni, Pollo, Panceta y Jamón</p>
             </article>
         </section>
-        <div class="row">
-            <p class="text-upper-case text-center p-5">mmmm.. ¡que sabor!</p>
-        </div>
+
+        <section class="row py-md-5">
+            <h2 class="text-upper-case text-center m-0 d-none d-md-block">mmmm.. ¡que sabor!</h2>
+        </section>
+
+        <!-- TIENDAS  -->
         <section id="tiendas" class="row justify-content-center">
             <h2 class="text-center text-upper-case pt-3">Nuestras tiendas</h2>
-            <article class="col-3">
+            <article class="col-6 col-md-3">
                 <figure>
-                    <img src="/img/local-1.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
+                    <img src="img/local-1.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
                 </figure>
                 <p>Local en Dinamarca</p>
             </article>
-            <article class="col-3">
+            <article class="col-6 col-md-3">
                 <figure>
-                    <img src="/img/local-2.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
+                    <img src="img/local-2.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
                 </figure>
                 <p>Local en China</p>
             </article>
-            <article class="col-3">
+            <article class="col-12 col-md-3">
                 <figure>
-                    <img src="/img/local-3.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
+                    <img src="img/local-3.jpeg" alt="Imagen de una tienda de Domino's Pizza" class="img-fluid rounded">
                 </figure>
                 <p>Local en Singapur</p>
             </article>
             
         </section>
 
-        <section id="pedido" class="row justify-content-center">
+        <!-- PEDIDOS -->
+        <section id="pedido" class="row justify-content-center mb-3">
             <h2 class="col-12 text-center text-upper-case pt-4">Hacenos <span>tu pedido</span></h2>
-            <figure class="col-3 ">
-                <img class="img-fluid" src="/img/local.jpg" alt="">
+            <figure class="col-lg-4 d-none d-lg-block p-0">
+                <img class="img-fluid w-100" src="img/local.jpg" alt="">
             </figure>
-            <form action="" class="col-3">
+            <form action="" class="col-12 col-lg-4">
                 <label for="nombre" class="d-block form-label">Nombre</label>
                 <input type="text" name="nombre" class="form-control">
 
@@ -110,24 +118,26 @@
                 <input type="checkbox" class="form-check-input" id="checkbox">
                 <label class="form-check-label" for="checkbox">Acepto brindar mis datos para sorteos</label>
 
-                <button type="button" class="btn btn-success d-block">Enviar</button>
+                <button type="button" class="btn btn-success d-block w-50">Enviar</button>
             </form>
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <div class="container-fluid">
         <footer class="row justify-content-center">
             <p class="col-12 text-center pt-3">Sitio creado por: Renato Ríos</p>
-            <nav class="col-3">
-                <ul class="list-inline text-center">
-                    <li class="list-unstyled list-inline-item">
-                        <a href="#"><img src="/img/f.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
+            <nav class="col-12">
+                <ul class="list-inline list-unstyled text-center">
+                    <li class="list-inline-item">
+                        <a href="#"><img src="img/f.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
                     </li>
-                    <li class="list-unstyled list-inline-item">
-                        <a href="#"><img src="/img/i.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
+                    <li class="list-inline-item">
+                        <a href="#"><img src="img/i.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
                     </li>
-                    <li class="list-unstyled list-inline-item">
-                        <a href="#"><img src="/img/t.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
+                    <li class="list-inline-item">
+                        <a href="#"><img src="img/t.png" alt="Icono de una red social" class="img-fluid rounded-circle"></a>
                     </li>
                 </ul>
             </nav>
